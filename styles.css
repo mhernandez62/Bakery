@@ -1,0 +1,262 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* Define acceptable fonts */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa; /* Light background color */
+    background-image: url('peach.jpg'); /* Replace with background image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Style for headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+    color: black; /* Black color for headings */
+    text-align: center;
+}
+
+/* Specific styles for the headings you want to center */
+#videos h2, .header {
+    text-align: center;
+    margin: 0 auto;
+} 
+
+/* Specific styles for the Bakery Content heading */
+#videos .section-heading {
+    text-align: left; /* Align text to the left */
+    margin-left: calc(50% - 50%); /* Center the heading above the table */
+    width: 40%; /* Match the width of the table */
+}
+
+/* Header styling */
+header {
+    background-color: #f28b82; /* Pastel red */
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation styling */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Change color of navbar links on hover */
+footer .social-icons a:hover i {
+    color: #ff6666 !important; /* Change to your desired hover color */
+}
+
+/* Main content styling */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Table styling */
+table {
+    width: 40%; /* Reduced width to make the table smaller */
+    border-collapse: collapse;
+    margin: 20px 0; /* Center the table */
+    float: left; /* Move the table to the left */
+}
+
+th, td {
+    border: 1px solid black; /* Change table lines to black */
+    padding: 8px;
+    text-align: center; /* Center text for better alignment */
+}
+
+th {
+    background-color: #f28b82; /* Pastel red */
+    color: white;
+}
+
+td img {
+    width: 100px; /* Set the width to 100px */
+    height: auto;
+    display: block; /* Ensure the image is displayed as a block element */
+    margin: 0 auto; /* Center the image within the table cell */
+    min-width: 100px; /* Set a minimum width */
+    min-height: 100px; /* Set a minimum height */
+}
+
+/* Footer styling */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    width: 100%;
+    bottom: 0;
+    position: relative; /* Change from fixed to relative */
+    clear: both; /* Ensure footer stays at the bottom */
+}
+
+/* Style for the flower icon */
+.flower-icon {
+    width: 30px; /* Adjust the size as needed */
+    height: auto;
+    vertical-align: middle;
+}
+
+/* Style for video sections */
+#video, #my-video {
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+}
+
+#video h2, #my-video h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#video iframe, #my-video video {
+    width: 100%;
+    height: 300px; /* Set a fixed height for consistency */
+}
+
+/* Style for video table */
+#videos {
+    clear: both; /* Ensure it stays below the header */
+}
+
+#videos table {
+    width: 40%; /* Reduced width to make the table smaller */
+    border-collapse: collapse;
+    margin: 20px auto; /* Center the table */
+    float: left; /* Move the table to the left */
+}
+
+#videos th, #videos td {
+    border: 1px solid black; /* Change table lines to black */
+    padding: 8px;
+    text-align: center;
+}
+
+#videos th {
+    background-color: #f28b82; /* Pastel red */
+    color: white;
+}
+
+#videos td iframe, #videos td video {
+    width: 100%;
+    height: 300px; /* Set a fixed height for consistency */
+}
+
+/* Style for about us table */
+#about-us {
+    clear: both; /* Ensure it stays below the videos table */
+}
+
+#about-us table {
+    width: 100%; /* Set the width to 100% */
+    border-collapse: collapse;
+    margin: 20px auto; /* Center the table */
+}
+
+#about-us th, #about-us td {
+    border: 1px solid black; /* Change table lines to black */
+    padding: 8px;
+    text-align: left;
+}
+
+/* Apply different font to "Team Members" and "Background" headings */
+#about-us th {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; /* Bold font weight */
+}
+
+/* Style for iframe */
+iframe.video {
+    border: none; /* Remove the border */
+}
+
+/* Apply different fonts to specific paragraphs */
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-lobster {
+    font-family: 'Lobster', cursive;
+}
+.font-open-sans {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Style for social media icons */
+.social-icons a {
+    font-size: 1.5em; /* Adjust the size of the icons */
+    transition: color 0.3s; /* Smooth transition for color change */
+Smooth transition for color change */
+    color: white; /* Ensure the initial color is white */
+}
+
+.social-icons a:hover {
+    color: #f28b82; /* Change color on hover */
+}
+.table-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.table-container .table {
+    flex: 1;
+    margin: 0 10px;
+}
+
+header {
+    background-color: #dc3545; /* Bootstrap's 'bg-danger' color */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.navbar {
+    background-color: #dc3545; /* Bootstrap's 'bg-danger' color */
+}
+
+.star-rating {
+    color: #ffc107;
+}
+
+.review-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.customer-reviews-header {
+    background-color: #add8e6; /* Baby blue color */
+    color: black;
+}
