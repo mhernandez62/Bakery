@@ -265,7 +265,7 @@ header {
     .custom-table-responsive {
         overflow-x: auto;
     }
-    .custom-table-responsive {
+    .custom-table-responsive .table {
         display: block;
         width: 100%;
     }
