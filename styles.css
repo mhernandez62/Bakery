@@ -287,3 +287,72 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
 }
+/* Styles for Menu */
+.menu-section {
+    text-align: center; /* Center-align section headlines and items */
+    font-family: 'Roboto', sans-serif; /* Use a modern font */
+    color: #333; /* Use a modern color */
+}
+.menu-item {
+    display: block; /* Ensure items are displayed as block elements */
+    text-align: center; /* Center-align text */
+    margin: 20px auto; /* Add more spacing between items */
+    border-bottom: 1px solid black !important; /* Make the lines black */
+    transition: background-color 0.3s ease; /* Add a hover effect */
+}
+.menu-item:hover {
+    background-color: #ffcccc; /* Change background color to light red on hover */
+}
+.menu-item img {
+    margin-bottom: 10px;
+}
+.menu-section h2 {
+    color: #e74c3c; /* Softer, more vibrant red */
+    text-decoration: underline; /* Underline the headlines */
+    margin-left: 50px; /* Move headlines to the right */
+}
+.menu-section h3 {
+    margin-bottom: 30px !important; /* Add more spacing below the headlines */
+}
+.menu-section p {
+    margin-top: 30px !important; /* Add more spacing above the paragraphs */
+}
+/* Responsive table styles */
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+}
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+}
+.table th,
+.table td {
+    padding: 0.75rem;
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}
+.table thead th {
+    vertical-align: bottom;
+    border-bottom: 2px solid #dee2e6;
+}
+.table tbody + tbody {
+    border-top: 2px solid #dee2e6;
+}
+.table-sm th,
+.table-sm td {
+    padding: 0.3rem;
+}
+.table-bordered {
+    border: 1px solid #dee2e6;
+}
+.table-bordered th,
+.table-bordered td {
+    border: 1px solid #dee2e6;
+}
+.table-bordered thead th,
+.table-bordered thead td {
+    border-bottom-width: 2px;
+}
