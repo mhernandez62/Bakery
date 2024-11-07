@@ -260,3 +260,22 @@ header {
     background-color: #add8e6; /* Baby blue color */
     color: black;
 }
+/* Example of a media query for mobile devices */
+@media (max-width: 768px) {
+    .navbar-nav {
+        text-align: center;
+    }
+    .table-container {
+        flex-direction: column;
+    }
+    .review-img {
+        width: 100%;
+        height: auto;
+    }
+}
+.table-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
