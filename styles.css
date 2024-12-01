@@ -10,7 +10,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f8f9fa; /* Light background color */
-    background-image: url('peach.jpg'); /* Replace with background image */
+    background-image: url('Images/peach.jpg'); /* Replace with background image */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -316,43 +316,4 @@ header {
 }
 .menu-section p {
     margin-top: 30px !important; /* Add more spacing above the paragraphs */
-}
-/* Responsive table styles */
-.table-responsive {
-    width: 100%;
-    overflow-x: auto;
-}
-.table {
-    width: 100%;
-    max-width: 100%;
-    margin-bottom: 1rem;
-    background-color: transparent;
-}
-.table th,
-.table td {
-    padding: 0.75rem;
-    vertical-align: top;
-    border-top: 1px solid #dee2e6;
-}
-.table thead th {
-    vertical-align: bottom;
-    border-bottom: 2px solid #dee2e6;
-}
-.table tbody + tbody {
-    border-top: 2px solid #dee2e6;
-}
-.table-sm th,
-.table-sm td {
-    padding: 0.3rem;
-}
-.table-bordered {
-    border: 1px solid #dee2e6;
-}
-.table-bordered th,
-.table-bordered td {
-    border: 1px solid #dee2e6;
-}
-.table-bordered thead th,
-.table-bordered thead td {
-    border-bottom-width: 2px;
 }
