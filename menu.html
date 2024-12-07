@@ -72,125 +72,125 @@
     <main class="container my-4">
         <section class="menu-section">
             <h2>Pastries</h2>
-            <div class="menu-item">
+            <article class="menu-item">
                 <img src="Images/concha.jpg" alt="Concha">
                 <div>
                     <h3>Concha</h3>
                     <p>Traditional Mexican sweet bread with a crunchy topping.</p>
                 </div>
                 <div class="price">$2.00</div>
-            </div>
-            <div class="menu-item">
+            </article>
+            <article class="menu-item">
                 <img src="Images/oreja.jpg" alt="Oreja">
                 <div>
                     <h3>Oreja</h3>
                     <p>Flaky and sweet puff pastry shaped like an ear.</p>
                 </div>
                 <div class="price">$1.50</div>
-            </div>
-            <div class="menu-item">
+            </article>
+            <article class="menu-item">
                 <img src="Images/cuernito.jpg" alt="Cuernito">
                 <div>
                     <h3>Cuernito</h3>
                     <p>Soft and buttery croissant-like pastry.</p>
                 </div>
                 <div class="price">$2.50</div>
-            </div>
+            </article>
         </section>
         <section class="menu-section">
             <h2>Cakes</h2>
-            <div class="menu-item">
+            <article class="menu-item">
                 <img src="Images/tres-leches.jpg" alt="Tres Leches Cake">
                 <div>
                     <h3>Tres Leches Cake</h3>
                     <p>Moist sponge cake soaked in three kinds of milk.</p>
                 </div>
                 <div class="price">$20.00</div>
-            </div>
-            <div class="menu-item">
+            </article>
+            <article class="menu-item">
                 <img src="Images/chocoflan.jpg" alt="Chocoflan">
                 <div>
                     <h3>Chocoflan</h3>
                     <p>Delicious combination of chocolate cake and flan.</p>
                 </div>
                 <div class="price">$18.00</div>
-            </div>
+            </article>
         </section>
         <section class="menu-section">
             <h2>Breads</h2>
-            <div class="menu-item">
+            <article class="menu-item">
                 <img src="Images/bolillo.jpg" alt="Bolillo">
                 <div>
                     <h3>Bolillo</h3>
                     <p>Crusty Mexican bread roll.</p>
                 </div>
                 <div class="price">$1.00</div>
-            </div>
-            <div class="menu-item">
+            </article>
+            <article class="menu-item">
                 <img src="Images/pan-de-muerto.jpg" alt="Pan de Muerto">
                 <div>
                     <h3>Pan de Muerto</h3>
                     <p>Traditional bread for Day of the Dead celebrations.</p>
                 </div>
                 <div class="price">$3.00</div>
-            </div>
+            </article>
         </section>
         <section class="menu-section">
             <h2>Specialties</h2>
-            <div class="menu-item">
+            <article class="menu-item">
                 <img src="Images/tamales.jpg" alt="Tamales">
                 <div>
                     <h3>Tamales</h3>
                     <p>Steamed corn dough filled with various fillings.</p>
                 </div>
                 <div class="price">$2.50</div>
-            </div>
-            <div class="menu-item">
+            </article>
+            <article class="menu-item">
                 <img src="Images/churros.jpg" alt="Churros">
                 <div>
                     <h3>Churros</h3>
                     <p>Fried dough pastry sprinkled with sugar and cinnamon.</p>
                 </div>
                 <div class="price">$1.50</div>
-            </div>
-      <section id="svg-image">
+            </article>
+        </section>
+                <div id="svg-image">
     <svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
         <circle id="outer-circle" cx="100" cy="100" r="80" stroke="black" stroke-width="3" fill="lightcoral" />
         <circle id="middle-circle" cx="100" cy="100" r="60" fill="white" />
         <circle id="inner-circle" cx="100" cy="100" r="30" fill="yellow" />
         <text x="50%" y="50%" text-anchor="middle" fill="black" font-size="12" dy=".3em">Bakery Margarita</text>
     </svg>
-</section>
+</div>
+        <script>
+            document.getElementById('outer-circle').addEventListener('mouseover', function() {
+                this.setAttribute('fill', 'coral');
+            });
+            document.getElementById('outer-circle').addEventListener('mouseout', function() {
+                this.setAttribute('fill', 'lightcoral');
+            });
 
-<script>
-    document.getElementById('outer-circle').addEventListener('mouseover', function() {
-        this.setAttribute('fill', 'coral');
-    });
-    document.getElementById('outer-circle').addEventListener('mouseout', function() {
-        this.setAttribute('fill', 'lightcoral');
-    });
+            document.getElementById('middle-circle').addEventListener('mouseover', function() {
+                this.setAttribute('fill', 'lightgray');
+            });
+            document.getElementById('middle-circle').addEventListener('mouseout', function() {
+                this.setAttribute('fill', 'white');
+            });
 
-    document.getElementById('middle-circle').addEventListener('mouseover', function() {
-        this.setAttribute('fill', 'lightgray');
-    });
-    document.getElementById('middle-circle').addEventListener('mouseout', function() {
-        this.setAttribute('fill', 'white');
-    });
-
-    document.getElementById('inner-circle').addEventListener('mouseover', function() {
-        this.setAttribute('fill', 'gold');
-    });
-    document.getElementById('inner-circle').addEventListener('mouseout', function() {
-        this.setAttribute('fill', 'yellow');
-    });
-</script>
+            document.getElementById('inner-circle').addEventListener('mouseover', function() {
+                this.setAttribute('fill', 'gold');
+            });
+            document.getElementById('inner-circle').addEventListener('mouseout', function() {
+                this.setAttribute('fill', 'yellow');
+            });
+        </script>
     </main>
     <!-- Footer -->
     <footer class="text-center py-4">
         <p>© 2024 Bakery Margarita <img src="Images/margarita-flower.png" alt="Margarita Flower" class="flower-icon">. All rights reserved.</p>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-gAxmZCEsxM8N6QUk1/S51j62b0E17bIVzov/9Dclu8EIxk/BWhhvn7jWr1pW7sIY" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
